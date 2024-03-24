@@ -10,3 +10,15 @@ function solution(string) {
     return result;
 }
 
+const solution2 = function(string) {
+    const chars = string.split('');
+    const result = [];
+    chars.forEach(char => {
+        if (char === char.toUpperCase()) {
+            result.push(' ', char);
+        } else {
+            result.push(char);
+        }
+    });
+    return result.join('');
+};
