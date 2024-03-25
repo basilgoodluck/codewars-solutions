@@ -9,8 +9,7 @@ function divisors(integer) {
         return integer + " is a prime number"
     }
     else return arr.toString()
-  
 };
 
-console.log(divisors(832));
+console.log(divisors(2));
 
