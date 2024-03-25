@@ -13,6 +13,4 @@ function toCamelCase(str){
     return result;
 }
 
-let ght = 'dsgo-dsa_aGj-jdao_ja'
-console.log(toCamelCase(ght))
 

@@ -11,5 +11,4 @@ function divisors(integer) {
     else return arr.toString()
 };
 
-console.log(divisors(2));
 
